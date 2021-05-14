@@ -1,0 +1,108 @@
+.simple-marquee-container * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.simple-marquee-container {
+  width: 100%;
+  background: #ffffff;
+  float: left;
+  display: inline-block;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 160px;
+  position: relative;
+  cursor: pointer;
+}
+
+.simple-marquee-container .marquee-sibling {
+  padding: 0;
+  background: #31a700;
+  width: 20%;
+  height: 45px;
+  line-height: 42px;
+  font-weight: 600;
+  color: #f7ac54;
+  text-align: center;
+  float: left;
+  left: 0;
+  z-index: 1;
+}
+
+.simple-marquee-container .marquee,
+.simple-marquee-container *[class^="marquee"] {
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+}
+
+.simple-marquee-container .marquee {
+  margin-left: 25%;
+}
+
+.simple-marquee-container .marquee-content-items {
+  display: inline-block;
+  padding: 5px;
+  margin: 0;
+  height: 45px;
+  position: relative;
+}
+
+.simple-marquee-container .marquee-content-items li {
+  display: inline-block;
+  line-height: 35px;
+  color: #31a700;
+}
+
+.simple-marquee-container .marquee-content-items li .mover-item::after {
+  content: "\0020";
+  margin: 0 1em;
+}
+.simple-marquee-container .marquee-content-items li .mover-item span {
+margin:0px 12px
+}
+.simple-marquee-container .marquee-content-items li {
+  /* width: 360px; */
+  /* height: 100px; */
+  margin-top: 22px;
+}
+
+.simple-marquee-container
+  .marquee-content-items
+  li
+  .mover-item
+  .mover-text-container,
+.simple-marquee-container
+  .marquee-content-items
+  li
+  .mover-item
+  .mover-image-container {
+  width: 50%;
+  position: relative;
+  float: right;
+}
+.simple-marquee-container
+  .marquee-content-items
+  li
+  .mover-item
+  .mover-image-container
+  img {
+  width: 100%;
+  height: 100%;
+}
+
+.simple-marquee-container .marquee-content-items li .mover-item {
+  width: 100%;
+  height: 100%;
+}
+.simple-marquee-container
+  .marquee-content-items
+  li
+  .mover-item
+  .mover-text-container
+  p {
+  color: #31a700;
+  font-weight: 600;
+}

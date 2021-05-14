@@ -1,0 +1,640 @@
+@media only screen and (min-width: 1440px) {
+  .modal-dialog {
+    width: 70%;
+  }
+  .about-modal .about-us-modal-img-1 {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .about-modal .about-us-modal-text-3 {
+    margin-top: 34px;
+  }
+  .about-modal .about-us-modal-img-2-wrapper {
+    text-align: center;
+  }
+  .about-modal .about-us-modal-img-2 {
+    width: 40%;
+    margin-top: 0px;
+  }
+  .about-modal .about-us-modal-img-3 {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .about-modal .about-us-modal-img-4 {
+    width: 100%;
+    margin-top: 23px;
+  }
+}
+@media only screen and (max-width: 1400px) and (min-width: 991px) {
+  /**
+	 * ========================================
+	 * Portfolio Section Single Image Style
+	 * ========================================
+	 */
+  .image img {
+    width: 700px;
+  }
+  /**
+	 * ========================================
+	 * Slider Area Style
+	 * ========================================
+	 */
+  .slider {
+    padding: 0 100px;
+  }
+  /**
+	 * ========================================
+	 * Portfolio Project Detail Content Style
+	 * ========================================
+	 */
+  .link-list {
+    right: 78px;
+  }
+  .modal-dialog {
+    width: 70%;
+  }
+  .about-modal .about-us-modal-img-1 {
+    width: 100%;
+    /* margin-top: 32px; */
+  }
+  .about-modal .about-us-modal-text-3 {
+    margin-top: 25px;
+  }
+  .about-modal .about-us-modal-img-2 {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .about-modal .about-us-modal-img-3 {
+    width: 100%;
+    /* margin-top: 30px; */
+  }
+  .about-modal .about-us-modal-img-4 {
+    width: 100%;
+    margin-top: 23px;
+  }
+}
+@media (max-width: 991px) {
+  /**
+	 * =======================
+	 * Top Navigation
+	 * =======================
+	 */
+  .main-navbar-top .navbar-header {
+    float: left;
+  }
+  .main-navbar-top .navbar-collapse-right {
+    float: right;
+  }
+  /**
+	 * ========================================
+	 * Portfolio Section Single Image Style
+	 * ========================================
+	 */
+  .image img {
+    width: 100%;
+  }
+  /**
+	 * ========================================
+	 * Portfolio Project Detail Content Style
+	 * ========================================
+	 */
+  .project-detail .project-detail-image-outer {
+    text-align: center;
+  }
+  .link-list .link .inner {
+    text-align: right;
+  }
+  .link-list .line {
+    left: 0px;
+    float: right;
+  }
+  .vertical-middle {
+    display: block;
+    vertical-align: middle;
+    float: none;
+  }
+  .about-modal .about-us-modal-img-1-wrapper {
+    text-align: center;
+  }
+  .about-modal .about-us-modal-img-1 {
+    width: 35%;
+    margin-top: 0px;
+  }
+  .about-modal .about-us-modal-img-2-wrapper {
+    text-align: center;
+  }
+  .about-modal .about-us-modal-img-2 {
+    width: 35%;
+    margin-top: 0px;
+  }
+  .about-modal .about-us-modal-img-3-wrapper {
+    text-align: center;
+  }
+  .about-modal .about-us-modal-img-3 {
+    width: 35%;
+    margin-top: 0px;
+  }
+  .about-modal .about-us-modal-img-4-wrapper {
+    text-align: center;
+  }
+  .about-modal .about-us-modal-img-4 {
+    width: 35%;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .section-heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .section-heading-outer.p-l-50,
+  .section-heading-outer.p-r-50 {
+    padding: 0px;
+  }
+  /**
+	 * =======================
+	 * Top Navigation
+	 * =======================
+	 */
+  .main-navbar-top .nav-trigger {
+    left: auto;
+    right: 25px;
+    -o-transform: translate3d(0, 0px, 0);
+    -ms-transform: translate3d(0, 0px, 0);
+    -moz-transform: translate3d(0, 0px, 0);
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+  }
+  .main-navbar-top .navbar-header {
+    float: left;
+  }
+  .main-navbar-top .navbar-collapse {
+    width: 100%;
+    left: calc(50% + 15px);
+  }
+  .main-navbar-top .navbar-collapse .navbar-nav {
+    padding: 0 25px 10px 25px;
+  }
+  .main-navbar-top .navbar-collapse .navbar-nav li {
+    float: left;
+  }
+  .main-navbar-top .navbar-collapse .navbar-nav li .btn-nav {
+    line-height: 30px;
+  }
+  /* The side navigation menu */
+  .navbar-side {
+    height: 100%; /* 100% Full-height */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: rgba(247, 203, 70, 0.88); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  .navbar-side a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .navbar-side a:hover {
+    color: #31a700;
+  }
+
+  /* Position and style the close button (top right corner) */
+  .navbar-side .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .collapsed-sidenav {
+    width: 0;
+  }
+
+  /**
+	 * ========================================
+	 * Home Section Style
+	 * ========================================
+   */
+
+  .about-landing {
+    display: none;
+  }
+  .home-section .landing-card-container {
+    margin-left: 0px;
+  }
+  .landing-card-container .landing-card-text {
+    padding: 0px 10px;
+    border-radius: 0px;
+  }
+  .landing-card {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .home-section .heading-outer .p-t-40,
+  .home-section .heading-outer .p-l-40,
+  .home-section .heading-outer .p-r-40,
+  .home-section .heading-outer .p-b-40 {
+    padding: 15px;
+  }
+  .home-section
+    .category-slider-wrapper
+    .item
+    .category-slider-img-group-1
+    .image-outer
+    img,
+  .home-section
+    .category-slider-wrapper
+    .item
+    .category-slider-img-group-3
+    .image-outer
+    img {
+    width: 100px;
+    height: 100px;
+  }
+  .home-section
+    .category-slider-wrapper
+    .item
+    .category-slider-img-group-2
+    .image-outer
+    img {
+    margin: 4px;
+  }
+  .category-slider-img-group-1,
+  .category-slider-img-group-1 {
+    padding: 0px 0px;
+  }
+
+  /**
+	 * ========================================
+	 * Categories Section Style
+	 * ========================================
+	 */
+
+  .categories-section .outting-image-section-right,
+  .categories-section .outting-image-section-left {
+    display: none;
+  }
+  /**
+	 * ========================================
+	 * Services Section Style
+	 * ========================================
+	 */
+  .services-section .each-services .each-services-inner {
+    max-width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .services-section .each-services:last-child .each-features-inner {
+    margin-bottom: 0px;
+  }
+  /**
+	 * ========================================
+	 * Services Detail View Style
+	 * ========================================
+	 */
+  .services-full-view .services-details .back-button-outer {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .services-full-view .services-details .line-outer {
+    position: relative;
+    left: 50%;
+  }
+  .services-full-view .services-details .line {
+    margin-bottom: 6px;
+  }
+  /**
+	 * ========================================
+	 * Portfolio Project Detail Content Style
+	 * ========================================
+	 */
+  .project-detail .project-detail-inner {
+    display: block;
+    -webkit-flex: initial;
+    /* Safari 6.1+ */
+    -ms-flex: initial;
+    /* IE 10 */
+    flex: initial;
+    text-align: left;
+  }
+  .project-detail .project-detail-content {
+    padding: 15px 15px 30px 15px;
+  }
+  .project-detail .list {
+    text-align: center;
+  }
+  .project-detail .list li {
+    padding-right: 7px;
+    margin-right: 7px;
+    display: inline;
+  }
+  .heading-text {
+    position: relative;
+    width: 100%;
+  }
+  .heading-text .text {
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 400;
+  }
+  .heading-text .line {
+    left: 50%;
+  }
+  .link-list {
+    position: relative;
+    width: 100%;
+    right: 0;
+    margin-top: 10px;
+  }
+  .link-list .link .inner {
+    text-align: center;
+  }
+  /**
+	 * ========================================
+	 * Slider Area Style
+	 * ========================================
+	 */
+  .slider .owl-pagination {
+    float: none;
+  }
+  .slider .btn-outer {
+    float: none;
+  }
+  /**
+	 * ========================================
+	 * Category Landing Section Style
+	 * ========================================
+   */
+  .home-section .category-slider-wrapper .owl-wrapper-outer {
+    border-radius: 0px;
+  }
+  .home-section .category-slider-wrapper .item {
+    padding: 0 15px;
+  }
+  /**
+	 * ========================================
+	 * Team Section Style
+	 * ========================================
+   */
+
+  .nav.productTablist {
+    display: flex;
+  }
+  .team-member .each-item .item-inner {
+    max-width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team-member:last-child .item-inner {
+    margin-bottom: 0px;
+  }
+  .modal-title,
+  .side-header {
+    text-align: left;
+  }
+  .product-modal .modal-body p,
+  .product-modal .modal-body ul li {
+    text-align: justify;
+  }
+  .product-modal .modal-body .description-container p {
+    text-align: justify;
+  }
+  .product-modal .modal-title .title-right-line {
+    display: none;
+  }
+  .product-modal .modal-title {
+    border-bottom: 2px solid #835b35;
+  }
+  /**
+	 * ========================================
+	 * Contact us Section Style
+	 * ========================================
+   */
+  .contact-us {
+    padding-left: 0px;
+  }
+  .contact-us .single-form-outer {
+    padding: 0px;
+  }
+  /**
+	 * ========================================
+	 * Contact Section Style
+	 * ========================================
+	 */
+  .contact-footer .each-section .each-section-inner {
+    max-width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .contact-footer .each-section:last-child .each-section-inner {
+    margin-bottom: 0px;
+  }
+
+  .about-modal .about-us-modal-img-1-wrapper {
+    text-align: center;
+  }
+  .about-modal .about-us-modal-img-1 {
+    width: 35%;
+    margin-top: 0px;
+  }
+  .about-modal .about-us-modal-img-2-wrapper {
+    text-align: center;
+  }
+  .about-modal .about-us-modal-img-2 {
+    width: 35%;
+    margin-top: 0px;
+  }
+  .about-modal .about-us-modal-img-3-wrapper {
+    text-align: center;
+  }
+  .about-modal .about-us-modal-img-3 {
+    width: 35%;
+    margin-top: 0px;
+  }
+  .about-modal .about-us-modal-img-4-wrapper {
+    text-align: center;
+  }
+  .about-modal .about-us-modal-img-4 {
+    width: 35%;
+    margin-top: 0px;
+  }
+  .product-modal .modal-content-bg-img-c1,
+  .product-modal .modal-content-bg-img-c2,
+  .product-modal .modal-content-bg-img-c3 {
+    height: 360px;
+  }
+  .product-modal .modal-body .product-modal-slider-container {
+    margin: 25% 0%;
+  }
+  .product-modal-slider-wrapper .item .product-text p {
+    margin-left: 50px;
+  }
+  .product-modal .modal-content-bg-img-c1 .close,
+  .product-modal .modal-content-bg-img-c2 .close,
+  .product-modal .modal-content-bg-img-c3 .close {
+    display: none;
+  }
+  .product-modal .modal-header {
+    display: flex;
+  }
+
+  .modal-image {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .categories-section .outting-image-section-right,
+  .categories-section .outting-image-section-left {
+    display: none;
+  }
+  .semi-dark-background.about-section {
+  }
+  .semi-dark-background.contact-us-section {
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .home-section {
+    position: relative;
+    height: 100vh;
+  }
+  /* .home-section .inner-container{
+    padding-top: 81px;
+    padding-bottom: 81px;
+  } */
+
+  .home-section .landing-card-container {
+    margin-left: -45px;
+  }
+
+  .landing-card-container .landing-card-text {
+    padding: 5px 20px;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .home-section .category-slider-wrapper .owl-wrapper-outer {
+    border-radius: 0px 0px 15px 15px;
+  }
+  .home-section
+    .category-slider-wrapper
+    .item
+    .category-slider-img-group-1
+    .image-outer
+    img,
+  .home-section
+    .category-slider-wrapper
+    .item
+    .category-slider-img-group-3
+    .image-outer
+    img {
+    width: 130px;
+    height: 110px;
+  }
+  .category-slider-img-group-1 {
+    padding: 0px 10px;
+  }
+  .category-slider-img-group-2 {
+    padding: 0px 80px;
+  }
+
+  .home-section
+    .category-slider-wrapper
+    .item
+    .category-slider-img-group-2
+    .image-outer
+    img {
+    margin: 5px;
+  }
+  .home-section .category-slider-wrapper .item .category-slider-img-group-1 {
+    /* margin-left: 160px; */
+  }
+  .home-section .category-slider-wrapper .item .category-slider-img-group-2 {
+    /* margin-left: 160px; */
+  }
+  .home-section .category-slider-wrapper .read-more {
+    margin-right: -65px;
+  }
+  .home-section .category-slider-wrapper .item {
+    /* height: 335px; */
+  }
+
+  .categories-section .features-image-outer {
+    margin-left: 70px;
+  }
+  .categories-section .features-image-outer img {
+    height: 399px;
+  }
+  .categories-section .outting-image-section-right,
+  .categories-section .outting-image-section-left {
+    display: block;
+  }
+
+  .categories-section #services-1 .services-content-outer {
+    margin: 85px 0px;
+  }
+  .categories-section #services-2 .services-content-outer {
+    margin: 85px 0px;
+  }
+  .categories-section #services-3 .services-content-outer {
+    margin: 85px 0px;
+  }
+  .categories-section #services-4 .services-content-outer {
+    margin: 85px 0px;
+  }
+  .semi-dark-background.about-section {
+  }
+  .tab-pane .product-pane-header {
+    margin: 0px 230px;
+  }
+  .semi-dark-background.contact-us-section {
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .contact-us .single-form-outer {
+    padding: 15px;
+  }
+  .modal-dialog {
+    width: 70%;
+  }
+  .about-modal .about-us-modal-img-1 {
+    width: 100%;
+    /* margin-top: 32px; */
+  }
+  .about-modal .about-us-modal-img-2 {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .about-modal .about-us-modal-img-3 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .about-modal .about-us-modal-img-4 {
+    width: 100%;
+    margin-top: 23px;
+  }
+  .modal-header .close {
+    display: none;
+  }
+  .modal-image {
+    width: 100%;
+  }
+}

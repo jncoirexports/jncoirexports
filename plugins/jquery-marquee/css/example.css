@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.content {
+  display: block;
+  position: relative;
+  width: 1268px;
+  background: rgb(215, 215, 215);
+  padding: 1px;
+  overflow: hidden;
+  border-radius: 2px;
+  margin-top: 15px; 
+}
+.content * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
