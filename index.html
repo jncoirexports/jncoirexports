@@ -30,9 +30,11 @@
 
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
   <!-- Image Slider -->
   <link rel="stylesheet" href="css/plagin-css/owl.carousel.css" />
-
+<link rel="stylesheet" href="css/carousal.css" />
   <!-- FONT ICONS -->
   <link rel="stylesheet" href="icons/rik-icons/styles.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Salsa">
@@ -168,11 +170,24 @@
         <div class="col-md-12 landing-card">
           <div class="landing-card-container">
 
-            <div class="category-slider">
+            <!-- <div class="category-slider">
               <div class="category-slider-container">
                 <div class="category-slider-wrapper pagination-style-1 owl-carousel">
                   <div class="item category-slider-item category-slider-item-1">
                     <img src="./images/pith-drying-2.jpeg" />
+                    <div class="bs-slider-overlay"></div>
+
+                    <div class="container">
+                        <div class="row">
+                           
+                            <div class="slide-text slide_style_left">
+                                <h1 data-animation="animated zoomInRight">Bootstrap Carousel</h1>
+                                <p data-animation="animated fadeInLeft">Bootstrap carousel now touch enable slide.</p>
+                                <a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+                                <a href="http://bootstrapthemes.co/" target="_blank"  class="btn btn-primary" data-animation="animated fadeInRight">select two</a>
+                            </div>
+                        </div>
+                    </div>
                   </div>
 
                   <div class="item category-slider-item category-slider-item-2">
@@ -188,14 +203,92 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
+
+        <div id="bootstrap-touch-slider" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
+
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+              <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+              <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+              <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper For Slides -->
+          <div class="carousel-inner" role="listbox">
+
+              <!-- Third Slide -->
+              <div class="item active">
+
+                  <!-- Slide Background -->
+                  <img src="./images/pith-drying-3.jpeg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                  <div class="bs-slider-overlay"></div>
+
+                  <div class="container">
+                      <div class="row">
+                          <!-- Slide Text Layer -->
+                          <div class="slide-text slide_style_left">
+                              <h1 data-animation="animated zoomInRight">Drying Washed Pith</h1>
+                              <p data-animation="animated fadeInLeft">with Low EC</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- End of Slide -->
+
+              <!-- Second Slide -->
+              <div class="item">
+
+                  <!-- Slide Background -->
+                  <img src="./images/pith-drying.jpeg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                  <div class="bs-slider-overlay"></div>
+                  <!-- Slide Text Layer -->
+                  <div class="slide-text slide_style_center">
+                      <h1 data-animation="animated flipInX">Eco-Friendly Products from Coco</h1>
+                      <p data-animation="animated lightSpeedIn">away from harmful resources to live nature life</p>
+                  </div>
+              </div>
+              <!-- End of Slide -->
+
+              <!-- Third Slide -->
+              <div class="item">
+
+                  <!-- Slide Background -->
+                  <img src="./images/pith.jpeg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                  <div class="bs-slider-overlay"></div>
+                  <!-- Slide Text Layer -->
+                  <div class="slide-text slide_style_right">
+                      <h1 data-animation="animated zoomInLeft">Coir Pith Blocks</h1>
+                      <p data-animation="animated fadeInRight">product with RHP standards</p>
+                  </div>
+              </div>
+              <!-- End of Slide -->
+
+
+          </div><!-- End of Wrapper For Slides -->
+
+          <!-- Left Control -->
+          <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+              <span class="fa fa-angle-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+
+          <!-- Right Control -->
+          <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+              <span class="fa fa-angle-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
+
+      </div> <!-- End  bootstrap-touch-slider Slider -->
+      
+      
           </div>
         </div>
       </div>
     </div>
     <!-- Next Section Arrow -->
     <div class="footer-button">
-      <a href="#categories-section">
+      <a href="#about-section">
         <div id="arrowAnim">
           <div class="arrowSliding">
             <div class="arrow"></div>
@@ -254,8 +347,8 @@
                       <div class="overflow">
                         <div class="pera-outer m-t-15 m-b-15 wow">
                           <p>
-                            JN is a export company, which procures
-                            and supplies coir substrates in keeping with our values. We hold valid trading
+                            JN is a export company, specialises in manufacturing and exporting coir fibre, coir pith blocks, 
+                            which are manufacturing from our own unit Sri Palaniandavar Fibres. We hold valid trading
                             license for coir exports in India and Overseas.
                           </p>
                         </div>
@@ -268,6 +361,15 @@
                             Coco peats to China and European Countries from India. 
                             We focus on continuing to offer dedicated services to our customers 
                             with traditional integrity and trustworthiness.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="overflow">
+                        <div class="pera-outer m-t-15 wow">
+                          <p>
+                            We are able to offer superior quality products to our clients within the stipulated time frame. 
+                            Our entire product range is strictly quality tested to ensure that it is in compliance with 
+                            the international quality standards.
                           </p>
                         </div>
                       </div>
@@ -293,473 +395,60 @@
   <!--Start: 4th Section  
             - OUR PRODUCT PAGE
         ====================================-->
-  <!-- <div class="section section-item products-section combine-section hide-overlay overflow white-background"
+  <div class="section section-item products-section combine-section hide-overlay overflow white-background"
     id="products-section">
     <div class="inner-container team-member white-background">
       <div class="container">
         <div class="row section-separator sp-bottom">
           <div class="section-header col-sm-10 col-sm-offset-1">
             <div class="overflow">
-              <div class="line-outer">
-                <div class="line wow"></div>
-              </div>
-            </div>
-            <div class="overflow">
               <div class="section-heading-outer m-b-15">
-                <p class="sub-heading wow">
+                <h3 class="wow">
                   Our
                   <span class="tubelight amazing" data-text="Amazing">Amazing</span>
                   Products
-                </p>
+                </h3>
               </div>
             </div>
           </div>
 
           <div class="clearfix"></div>
-
-          <div class="row">
-            <div class="col-md-12 product-tab-container">
-              <div class="product-tablist">
-                <ul class="nav nav-tabs productTablist wow" id="productTab" role="tablist">
-                  <li class="nav-item active">
-                    <a class="nav-link active" id="bio-utility-tab" data-toggle="tab" href="#bio-utility" role="tab"
-                      aria-controls="home" aria-selected="true">
-                      <h5>Bio-utility</h5>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="coconut-utility-tab" data-toggle="tab" href="#coconut-utility" role="tab"
-                      aria-controls="profile" aria-selected="false">
-                      <h5>Coconut-utility</h5>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="natural-farms-tab" data-toggle="tab" href="#natural-farms" role="tab"
-                      aria-controls="contact" aria-selected="false">
-                      <h5>Natural-farms</h5>
-                    </a>
-                  </li>
-                </ul>
+          <div class="overflow">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-12">
+            
+                  <h5 class="wow">Coir Fibre</h5>
+                
+                <div class="overflow">
+                  <div class="pera-outer m-t-15 wow">
+                    <p class="product-desc">
+                      JN Exports supplies 120Kg Coir Brown Fibre Bale from our own production unit. 
+                      Coir Fibre is a natural fibre extracted from the outer husk of coconut and 
+                      used in products such as floor mats, doormats, brushes and mattresses.
+                      The coir fiber is the thickest and most resistant of all commercial natural fibers. 
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="tab-content productTabContent" id="productTabContent">
-                <div class="tab-pane fade active in" id="bio-utility" role="tabpanel" aria-labelledby="bio-utility-tab">
-                  <div class="product-pane-header">
-                    <div class="product-description overflow">
-                      <div class="overflow wow">
-                        <p>
-                          House-hold utility items which are alternate to
-                          plastics. They are made of 100% natural materials,
-                          and are eco-friendly and bio-degradable.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-12 col-sm-11 grid-item">
-                    <div class="row">
-                      <div
-                        class="col-md-3 col-sm-6 col-xs-10 col-xs-offset-1 each-item overflow text-center relative wow">
-                        <div class="item-inner overflow absolute">
-                          <div class="profile-outer center">
-                            <div class="profile-image">
-                              <img src="images/products/250-grams-food-container.jpg" alt="Team Member" class="" />
-                            </div>
-                            <div class="profile-content max-content">
-                              <span class="name">Areca Plates and Containers</span>
-                              <span class="position">Areca Leaf</span>
-                            </div>
-                          </div>
-                          <div class="content-detail">
-                            <p>
-                              We supply high-quality Areca leaf boxes at a
-                              nominal price and can export to other countries
-                              from India. They are the natural and timely
-                              substitute to plastics to heal the Earth from
-                              the harm done by use of plastics
-                            </p>
-                            <div class="overflow m-t-15 m-b-15">
-                              <div class="btn-form-outer wow pull-right">
-                                <a href="#" class="btn right-icon btn-services btn-mask" data-toggle="modal"
-                                  data-target="#areca-food-container-modal">
-                                  Read More<i class="icon icon-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div
-                        class="col-md-3 col-sm-6 col-xs-10 col-xs-offset-1 each-item overflow text-center relative wow">
-                        <div class="item-inner overflow absolute">
-                          <div class="profile-outer center">
-                            <div class="profile-image">
-                              <img src="images/products/coco-leaf-straw.jpeg" alt="Team Member" class="" />
-                            </div>
-                            <div class="profile-content">
-                              <span class="name">Coco Straw</span>
-                              <span class="position">Coconut Leaf</span>
-                            </div>
-                          </div>
-                          <div class="content-detail">
-                            <p>
-                              Earth faces huge challenges due to lot of
-                              discarded single use or use and throw plastics.
-                              A small but significant step towards this is the
-                              replacement of plastic straws by straws made of
-                              coconut leaves.
-                            </p>
-                            <div class="overflow m-t-15 m-b-15">
-                              <div class="btn-form-outer wow pull-right">
-                                <a href="#" class="btn right-icon btn-services btn-mask" data-toggle="modal"
-                                  data-target="#coco-leaf-straw-modal">
-                                  Read More<i class="icon icon-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="col-md-3 col-sm-6 col-xs-10 col-xs-offset-1 each-item overflow text-center relative wow">
-                        <div class="item-inner overflow absolute">
-                          <div class="profile-outer center">
-                            <div class="profile-image">
-                              <img src="images/products/coco-shell-cup-1.jpg" alt="Team Member" class="" />
-                            </div>
-                            <div class="profile-content">
-                              <span class="name">Cups and Spoons</span>
-                              <span class="position">Coconut Shell</span>
-                            </div>
-                          </div>
-                          <div class="content-detail">
-                            <p>
-                              We present a collection of beautiful
-                              hand-crafted coconut shell products made by a
-                              family of artisans in our region. We supply a
-                              wide range of crafts hand made from coconut
-                              shell.
-                            </p>
-                            <div class="overflow m-t-15 m-b-15">
-                              <div class="btn-form-outer wow pull-right">
-                                <a href="#" class="btn right-icon btn-services btn-mask" data-toggle="modal"
-                                  data-target="#coco-cups-spoons-modal">
-                                  Read More<i class="icon icon-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="tab-pane fade" id="coconut-utility" role="tabpanel" aria-labelledby="coconut-utility-tab">
-                  <div class="col-md-offset-2 product-pane-header">
-                    <div class="product-description overflow">
-                      <div class="overflow wow">
-                        <p>
-                          Products made of Coconut fibre and peat find multi
-                          uses in making domestic utility products such as
-                          door mats, coir mats etc. Coco peat is widely used
-                          in gardening.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-12 col-sm-11 grid-item">
-                    <div class="row">
-                      <div
-                        class="col-md-3 col-sm-6 col-xs-10 col-xs-offset-1 each-item overflow text-center relative wow">
-                        <div class="item-inner overflow absolute">
-                          <div class="profile-outer center">
-                            <div class="profile-image">
-                              <img src="images/products/coir-pith.jpg" alt="Team Member" class="" />
-                            </div>
-                            <div class="profile-content">
-                              <span class="name">Coco Peat</span>
-                              <span class="position">Coconut Husk</span>
-                            </div>
-                          </div>
-                          <div class="content-detail">
-                            <p>
-                              Coco Peat is used as a soil additive. Due to low
-                              levels of nutrients in its composition, coco
-                              peat is usually not the sole component in the
-                              medium used to grow plants.
-                            </p>
-                            <div class="overflow m-t-15 m-b-15">
-                              <div class="btn-form-outer wow pull-right">
-                                <a href="#" class="btn right-icon btn-services btn-mask" data-toggle="modal"
-                                  data-target="#coco-peat-modal">
-                                  Read More<i class="icon icon-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="col-md-3 col-sm-6 col-xs-10 col-xs-offset-1 each-item overflow text-center relative wow">
-                        <div class="item-inner overflow absolute">
-                          <div class="profile-outer center">
-                            <div class="profile-image">
-                              <img src="images/products/coir-fibre-mat.jpg" alt="Team Member" class="" />
-                            </div>
-                            <div class="profile-content">
-                              <span class="name">Geo-Textiles</span>
-                              <span class="position">Coconut Coir</span>
-                            </div>
-                          </div>
-                          <div class="content-detail">
-                            <p>
-                              Coir geotextile lasts best amongst natural ones.
-                              Furthermore, as this degrades after 5 years
-                              approximately, it forms humus and improves the
-                              soil.
-                            </p>
-                            <div class="overflow m-t-15 m-b-15">
-                              <div class="btn-form-outer wow pull-right">
-                                <a href="#" class="btn right-icon btn-services btn-mask" data-toggle="modal"
-                                  data-target="#geo-textiles-modal">
-                                  Read More<i class="icon icon-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="col-md-3 col-sm-6 col-xs-10 col-xs-offset-1 each-item overflow text-center relative wow">
-                        <div class="item-inner overflow absolute">
-                          <div class="profile-outer center">
-                            <div class="profile-image">
-                              <img src="images/products/coir-fibre-2.jpg" alt="Team Member" class="" />
-                            </div>
-                            <div class="profile-content">
-                              <span class="name">Coir Fibre</span>
-                              <span class="position">Coconut Coir</span>
-                            </div>
-                          </div>
-                          <div class="content-detail">
-                            <p>
-                              The extracted fiber will be dried by sunlight or
-                              electrical drier made into 150 kg bales by
-                              strapping. We manufacture high quality Coir
-                              Fiber for the global market.
-                            </p>
-                            <div class="overflow m-t-15 m-b-15">
-                              <div class="btn-form-outer wow pull-right">
-                                <a href="#" class="btn right-icon btn-services btn-mask" data-toggle="modal"
-                                  data-target="#coir-fibre-modal">
-                                  Read More<i class="icon icon-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="natural-farms" role="tabpanel" aria-labelledby="natural-farms-tab">
-                  <div class="col-md-offset-2 product-pane-header">
-                    <div class="product-description overflow">
-                      <div class="overflow wow">
-                        <p>
-                          Consumables and raw materials used in pharmaceutical
-                          and nutraceutical industries sourced directly from
-                          farmers. They are processed without chemicals.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-12 col-sm-11 grid-item">
-                    <div class="row">
-                      <div
-                        class="col-md-3 col-sm-6 col-xs-10 col-xs-offset-1 each-item overflow text-center relative wow">
-                        <div class="item-inner overflow absolute">
-                          <div class="profile-outer center">
-                            <div class="profile-image">
-                              <img src="images/products/full-husked-coconuts.jpg" alt="Team Member" class="" />
-                            </div>
-                            <div class="profile-content">
-                              <span class="name">Husked Coconuts</span>
-                              <span class="position">Coconuts</span>
-                            </div>
-                          </div>
-                          <div class="content-detail">
-                            <p>
-                              These are fully matured coconuts but while
-                              de-husking, the husk is left intact over the
-                              "eyes" of the coconut. In the Fully matured
-                              coconuts, the husk is removed completely.
-                            </p>
-                            <div class="overflow m-t-15 m-b-15">
-                              <div class="btn-form-outer wow pull-right">
-                                <a href="#" class="btn right-icon btn-services btn-mask" data-toggle="modal"
-                                  data-target="#husked-coco-modal">
-                                  Read More<i class="icon icon-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="col-md-3 col-sm-6 col-xs-10 col-xs-offset-1 each-item overflow text-center relative wow">
-                        <div class="item-inner overflow absolute">
-                          <div class="profile-outer center">
-                            <div class="profile-image">
-                              <img src="images/products/areca-nuts.jpg" alt="Team Member" class="" />
-                            </div>
-                            <div class="profile-content">
-                              <span class="name">Arica Nuts</span>
-                              <span class="position">Areca Tree</span>
-                            </div>
-                          </div>
-                          <div class="content-detail">
-                            <p>
-                              Areca nuts are traditionally used along with the
-                              betel leaves for faster digesting after food by
-                              the Indians. It is also widely used in Indian
-                              subcontinent, South East Asia and Africa.
-                            </p>
-                            <div class="overflow m-t-15 m-b-15">
-                              <div class="btn-form-outer wow pull-right">
-                                <a href="#" class="btn right-icon btn-services btn-mask" data-toggle="modal"
-                                  data-target="#areca-nuts-modal">
-                                  Read More<i class="icon icon-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="col-md-3 col-sm-6 col-xs-10 col-xs-offset-1 each-item overflow text-center relative wow">
-                        <div class="item-inner overflow absolute">
-                          <div class="profile-outer center">
-                            <div class="profile-image">
-                              <img src="images/products/moringa-extracts.png" alt="Team Member" class="" />
-                            </div>
-                            <div class="profile-content">
-                              <span class="name">Moringa Extracts</span>
-                              <span class="position">Moringa Tree</span>
-                            </div>
-                          </div>
-                          <div class="content-detail">
-                            <p>
-                              Moringaoleifera is a fast-growing,
-                              drought-resistant tree of the family
-                              Moringaceae, native to tropical and subtropical
-                              regions of South Asia. Common names include
-                              moringa, drumstick tree .
-                            </p>
-                            <div class="overflow m-t-15 m-b-15">
-                              <div class="btn-form-outer wow pull-right">
-                                <a href="#" class="btn right-icon btn-services btn-mask" data-toggle="modal"
-                                  data-target="#moringa-leaves-modal">
-                                  Read More<i class="icon icon-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-12 col-sm-11 grid-item">
-                    <div class="row">
-                      <div
-                        class="col-md-3 col-sm-6 col-xs-10 col-xs-offset-1 each-item overflow text-center relative wow">
-                        <div class="item-inner overflow absolute">
-                          <div class="profile-outer center">
-                            <div class="profile-image">
-                              <img src="images/products/sugar-cane-sugar.jpg" alt="Team Member" class="" />
-                            </div>
-                            <div class="profile-content">
-                              <span class="name">Farm Cane Sugar</span>
-                              <span class="position">Farm Sugarcane</span>
-                            </div>
-                          </div>
-                          <div class="content-detail">
-                            <p>
-                              Farm sugar is a natural low sweetener which
-                              makes it suitable for people who are weight
-                              conscious and those who are at risk of
-                              developing diabetics as well.
-                            </p>
-                            <div class="overflow m-t-15 m-b-15">
-                              <div class="btn-form-outer wow pull-right">
-                                <a href="#" class="btn right-icon btn-services btn-mask" data-toggle="modal"
-                                  data-target="#cane-sugar-modal">
-                                  Read More<i class="icon icon-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="col-md-3 col-sm-6 col-xs-10 col-xs-offset-1 each-item overflow text-center relative wow">
-                        <div class="item-inner overflow absolute">
-                          <div class="profile-outer center">
-                            <div class="profile-image">
-                              <img src="images/products/turmeric-powder.png" alt="Team Member" class="" />
-                            </div>
-                            <div class="profile-content">
-                              <span class="name">Turmeric Extracts</span>
-                              <span class="position">Turmeric</span>
-                            </div>
-                          </div>
-                          <div class="content-detail">
-                            <p>
-                              Turmeric plays a major role in the areas of
-                              Ayurveda, siddha medicines, Traditional
-                              medicines, Unani and also for the animistic
-                              rituals of Austronesian people for a period over
-                              thousands of years.
-                            </p>
-                            <div class="overflow m-t-15 m-b-15">
-                              <div class="btn-form-outer wow pull-right">
-                                <a href="#" class="btn right-icon btn-services btn-mask" data-toggle="modal"
-                                  data-target="#turmeric-modal">
-                                  Read More<i class="icon icon-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="col-md-3 col-sm-6 col-xs-10 col-xs-offset-1 each-item overflow text-center relative wow">
-                        <div class="item-inner overflow absolute">
-                          <div class="profile-outer center">
-                            <div class="profile-image">
-                              <img src="images/products/moringa-seed.png" alt="Team Member" class="" />
-                            </div>
-                            <div class="profile-content">
-                              <span class="name">Moringa Seeds</span>
-                              <span class="position">Moringa Tree</span>
-                            </div>
-                          </div>
-                          <div class="content-detail">
-                            <p>
-                              The products from Moringa trees have been
-                              gaining popularity in many countries due to
-                              their innumerable health benefits and superfood
-                              nature.
-                            </p>
-                            <div class="overflow m-t-15 m-b-15">
-                              <div class="btn-form-outer wow pull-right">
-                                <a href="#" class="btn right-icon btn-services btn-mask" data-toggle="modal"
-                                  data-target="#moringa-seeds-modal">
-                                  Read More<i class="icon icon-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+              <div class="col-md-6 col-sm-6 col-xs-12 p-l-50 p-r-50">
+                  <h5 class="wow">Coir Pith</h5>
+                <div class="overflow">
+                  <div class="pera-outer m-t-15 wow">
+                    <p class="product-desc">
+                      JN Exports supplies 5Kg Coir Pith blocks with Low EC from our own production unit. Coir Pith products are used in Agriculture, Horiculture, Floriculture nurseries, 
+                      Landscaping as a soil conditioner, 
+                      Potting mix, Germination of seeds and widely used 
+                      in Green Houses and for raising vegetables and flowers in terrace Gardens. 
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+            </div>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
   <!-- End: .inner-container -->
   <!--End: 4th Section  
             - OUR PRODUCT PAGE
@@ -972,12 +661,7 @@
   <div class="section map-section overflow">
     <div class="row">
       <div class="col-md-12 col-sm-12 contact-footer-map wow">
-        <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 280px">
-          <iframe
-            src="https://maps.google.com/maps?q=Sri+palaniandavar+fibres,+178%2F4+kumarapalayam,muthunaicken+Patti(p.o),+Palani,+Tamil+Nadu-624618&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            frameborder="0" style="border:0" allowfullscreen></iframe>
-
-        </div>
+        <div id="map"></div>
       </div>
     </div>
   </div>
@@ -996,17 +680,19 @@
   <script src="js/custom-scripts.js"></script>
   <!-- <script src="js/menu.js"></script> -->
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script src="js/bsTouchSlider.js"></script>
+
   <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4T3fWzw4YvOSr9AeXy5hxEOge19RG2u8&callback=myMap&libraries=&v=weekly"
     defer></script>
   <script>
     function myMap() {
       var mapProp = {
-        center: new google.maps.LatLng(11.054555, 76.994284),
+        center: new google.maps.LatLng(10.591129332013791, 77.39011506625604),
         zoom: 10,
       };
       var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(11.054555, 76.994284),
+        position: new google.maps.LatLng(10.591129332013791, 77.39011506625604),
         size: new google.maps.Size(32, 38),
         scaledSize: new google.maps.Size(32, 38),
         labelOrigin: new google.maps.Point(9, 9),

@@ -226,6 +226,7 @@
       navigation: true,
       pagination: false,
       transitionStyle: "fade",
+      animateOut: "slideOutUp",
     });
 
     $(".category-slider-wrapper .owl-prev").html(
@@ -298,89 +299,6 @@
         550
       );
     });
-
-    var bioUtilitySlider = $(".bio-utility-slider-wrapper");
-    bioUtilitySlider.owlCarousel({
-      singleItem: true,
-      autoPlay: 3000,
-      slideSpeed: 500,
-      paginationSpeed: 500,
-      stopOnHover: true,
-      autoHeight: false,
-      autoWidth: false,
-      navigation: false,
-      pagination: false,
-      transitionStyle: "fade",
-    });
-    var coconutUtilitySlider = $(".coconut-utility-slider-wrapper");
-    coconutUtilitySlider.owlCarousel({
-      singleItem: true,
-      autoPlay: 3000,
-      slideSpeed: 500,
-      paginationSpeed: 500,
-      stopOnHover: true,
-      autoHeight: false,
-      autoWidth: false,
-      navigation: false,
-      pagination: false,
-      transitionStyle: "fade",
-    });
-    var naturalFamrsSlider = $(".natural-farms-slider-wrapper");
-    naturalFamrsSlider.owlCarousel({
-      singleItem: true,
-      autoPlay: 3000,
-      slideSpeed: 500,
-      paginationSpeed: 500,
-      stopOnHover: true,
-      autoHeight: false,
-      autoWidth: false,
-      navigation: false,
-      pagination: false,
-      transitionStyle: "fade",
-    });
-    var coconutShellSlider = $(".coconut-shell-slider-wrapper");
-    coconutShellSlider.owlCarousel({
-      singleItem: true,
-      autoPlay: 3000,
-      slideSpeed: 500,
-      paginationSpeed: 500,
-      stopOnHover: true,
-      autoHeight: false,
-      autoWidth: false,
-      navigation: false,
-      pagination: false,
-      transitionStyle: "fade",
-    });
-    /**
-     * =============================================
-     * Category Detail Back 3
-     * =============================================
-     */
-    // var servicesBackButton = $(".btn-services-back");
-    // servicesBackButton.on("click", function (el) {
-    //   el.preventDefault();
-
-    //   var actionId = $(".each-services-outer"),
-    //     hideSection = $(this).closest(".services-details"),
-    //     parentSection = $(this).closest(".categories-section"),
-    //     headerSection = parentSection.find(".section-header"),
-    //     sectionHeading = headerSection.find(".section-heading");
-
-    //   hideSection.removeClass("active");
-
-    //   setTimeout(function () {
-    //     hideSection.fadeOut(10);
-    //     $(".categories-section").removeClass("each-category-section");
-    //     $(".categories-section").addClass("main-section");
-    //   }, 400);
-
-    //   setTimeout(function () {
-    //     $(actionId).fadeIn(10);
-    //     $(actionId).removeClass("active");
-
-    //     sectionHeading.fadeIn(10);
-    //   }, 550);
-    // });
 
     /**
      * =======================================

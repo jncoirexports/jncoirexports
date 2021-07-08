@@ -516,6 +516,8 @@
   .home-section {
     position: relative;
     height: 100vh;
+    top: -50px;
+    z-index: 1;
   }
   /* .home-section .inner-container{
     padding-top: 81px;

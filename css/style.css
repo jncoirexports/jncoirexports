@@ -58,6 +58,8 @@ a:focus {
 .milo-top-bar {
   background: #00a97e;
   height: 50px;
+  position: relative;
+  z-index: 12;
 }
 .top-bar-right {
   text-align: right;
@@ -948,7 +950,7 @@ section.section {
 }
 
 .amazing {
-  color: #f5f1c4;
+  color: #f7ac54;
   font-weight: 800;
   position: relative;
   margin: 0 auto;
@@ -1327,6 +1329,7 @@ section.section {
 }
 .white-background {
   background-color: #ffffff !important;
+  color: #464646;
 }
 .semi-dark-background p,
 .semi-dark-background a.btn {
@@ -2234,6 +2237,14 @@ section.section {
   margin: 0px;
   color: #f5f1c4;
   font-weight: 600;
+}
+
+.product-desc {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: justify;
+  color: #464646;
 }
 
 /**
