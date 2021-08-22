@@ -19,7 +19,7 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['mobile']) &
 		$phpEmail = new PHPMailer();
 		$phpEmail->IsSMTP();
 		$phpEmail->CharSet = "UTF-8";
-		$phpEmail->Host = 'smtp.gmail.com';
+		$phpEmail->Host = 'relay-hosting.secureserver.net';
 		$phpEmail->SMTPAuth = true;
 		//$phpEmail->SMTPAutoTLS = false; 
 		$phpEmail->Port = 587;
