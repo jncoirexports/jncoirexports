@@ -6,12 +6,12 @@
 
 <head>
   <!-- TITLE OF SITE -->
-  <title>JN Exports</title>
+  <title>JN Coir Exports</title>
 
   <!-- Meta -->
   <meta charset="utf-8" />
-  <meta name="description" content="Nature Life Green Life Eco-Friendly" />
-  <meta name="keywords" content="NATURE-LIFE, ECO-FRIENDLY, GREEN-LIFE" />
+  <meta name="description" content="Coir exports of Pith block and Coir Fibre" />
+  <meta name="keywords" content="COIR, COIREXPORTS, COIR EXPORTS, ECO-FRIENDLY, JN COIR EXPORTS" />
   <meta name="developer" content="alpha-version" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="robots" content="noindex" />
