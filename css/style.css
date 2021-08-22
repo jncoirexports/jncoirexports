@@ -4912,3 +4912,8 @@ section.section {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
 }
+
+.coir-product-img {
+  max-height: 290px;
+  width: 50%;
+}

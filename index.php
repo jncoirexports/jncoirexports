@@ -34,7 +34,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
   <!-- Image Slider -->
   <link rel="stylesheet" href="css/plagin-css/owl.carousel.css" />
-<link rel="stylesheet" href="css/carousal.css" />
+  <link rel="stylesheet" href="css/carousal.css" />
   <!-- FONT ICONS -->
   <link rel="stylesheet" href="icons/rik-icons/styles.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Salsa">
@@ -95,7 +95,7 @@
       <div class="row">
         <div class="top-sidebar top-bar-left col-md-6 col-sm-6 col-xs-12">
           <aside id="text-1" class="widget widget_text">
-            <div class="textwidget"><span class="top-phone">Phone: +1800-222-3333</span><span class="top-email">Email:
+            <div class="textwidget"><span class="top-phone">Phone: +04252-296895</span><span class="top-email">Email:
                 contact@jncoirexports.com</span></div>
           </aside>
         </div>
@@ -115,16 +115,14 @@
 
   <!-- Start: Navbar  Area
         ============================= -->
-  <nav class="navbar navbar-fixed-top main-navbar-top navbar-top-js menu-wrapper light-background"
-    id="main-navbar-top">
+  <nav class="navbar navbar-fixed-top main-navbar-top navbar-top-js menu-wrapper light-background" id="main-navbar-top">
     <div class="container relative row">
       <div class="navbar-header">
         <button type="button" class="nav-trigger nav-trigger-animate" data-target="#js-navbar-menu">
           <span aria-hidden="true" class="icon"></span>
         </button>
 
-        <a class="navbar-brand light-logo btn-scroll" href="#home-section"><img
-            src="images/JN_ECO_FRIENDLY_TRANSPARENT_LOGO.png" alt="" class="img-responsive" /> <span>JN Coir Exports</span></a>
+        <a class="navbar-brand light-logo btn-scroll" href="#home-section"><img src="images/JN_ECO_FRIENDLY_TRANSPARENT_LOGO.png" alt="" class="img-responsive" /> <span>JN Coir Exports</span></a>
       </div>
       <div class="top-menu-item">
         <div class="top-menu-each-item">
@@ -205,83 +203,100 @@
               </div>
             </div> -->
 
-        <div id="bootstrap-touch-slider" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
+            <div id="bootstrap-touch-slider" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
 
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-              <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
-              <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
-              <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
-          </ol>
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+              </ol>
 
-          <!-- Wrapper For Slides -->
-          <div class="carousel-inner" role="listbox">
+              <!-- Wrapper For Slides -->
+              <div class="carousel-inner" role="listbox">
 
-              <!-- Third Slide -->
-              <div class="item active">
+                <div class="item active">
 
                   <!-- Slide Background -->
-                  <img src="./images/pith-drying-3.jpeg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                  <img src="./images/fibre-drying.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
                   <div class="bs-slider-overlay"></div>
 
                   <div class="container">
-                      <div class="row">
-                          <!-- Slide Text Layer -->
-                          <div class="slide-text slide_style_left">
-                              <h1 data-animation="animated zoomInRight">Drying Washed Pith</h1>
-                              <p data-animation="animated fadeInLeft">with Low EC</p>
-                          </div>
+                    <div class="row">
+                      <!-- Slide Text Layer -->
+                      <div class="slide-text slide_style_left">
+                        <h1 data-animation="animated zoomInRight">Producer and Supplier Of Coir Products</h1>
+                        <p data-animation="animated fadeInLeft">we are exporting coir fibre and coir pith blocks</p>
                       </div>
+                    </div>
                   </div>
-              </div>
-              <!-- End of Slide -->
+                </div>
 
-              <!-- Second Slide -->
-              <div class="item">
+                <!-- Third Slide -->
+                <div class="item">
 
                   <!-- Slide Background -->
-                  <img src="./images/pith-drying.jpeg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                  <img src="./images/pith-drying-3.jpeg" alt="Bootstrap Touch Slider" class="slide-image" />
+                  <div class="bs-slider-overlay"></div>
+
+                  <div class="container">
+                    <div class="row">
+                      <!-- Slide Text Layer -->
+                      <div class="slide-text slide_style_left">
+                        <h1 data-animation="animated zoomInRight">Drying Washed Pith</h1>
+                        <p data-animation="animated fadeInLeft">with Low EC</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Second Slide -->
+                <div class="item">
+
+                  <!-- Slide Background -->
+                  <img src="./images/pith-blocks-storage.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
                   <div class="bs-slider-overlay"></div>
                   <!-- Slide Text Layer -->
                   <div class="slide-text slide_style_center">
-                      <h1 data-animation="animated flipInX">Eco-Friendly Products from Coco</h1>
-                      <p data-animation="animated lightSpeedIn">away from harmful resources to live nature life</p>
+                    <h1 data-animation="animated flipInX">Eco-Friendly Products from Coco</h1>
+                    <p data-animation="animated lightSpeedIn">away from harmful resources to live nature life</p>
                   </div>
-              </div>
-              <!-- End of Slide -->
+                </div>
+                <!-- End of Slide -->
 
-              <!-- Third Slide -->
-              <div class="item">
+                <!-- Third Slide -->
+                <div class="item">
 
                   <!-- Slide Background -->
-                  <img src="./images/pith.jpeg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                  <img src="./images/pith.jpeg" alt="Bootstrap Touch Slider" class="slide-image" />
                   <div class="bs-slider-overlay"></div>
                   <!-- Slide Text Layer -->
                   <div class="slide-text slide_style_right">
-                      <h1 data-animation="animated zoomInLeft">Coir Pith Blocks</h1>
-                      <p data-animation="animated fadeInRight">product with RHP standards</p>
+                    <h1 data-animation="animated zoomInLeft">Coir Pith Blocks</h1>
+                    <p data-animation="animated fadeInRight">product with RHP standards</p>
                   </div>
-              </div>
-              <!-- End of Slide -->
+                </div>
+                <!-- End of Slide -->
 
 
-          </div><!-- End of Wrapper For Slides -->
+              </div><!-- End of Wrapper For Slides -->
 
-          <!-- Left Control -->
-          <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
-              <span class="fa fa-angle-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-          </a>
+              <!-- Left Control -->
+              <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
 
-          <!-- Right Control -->
-          <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
-              <span class="fa fa-angle-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-          </a>
+              <!-- Right Control -->
+              <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
 
-      </div> <!-- End  bootstrap-touch-slider Slider -->
-      
-      
+            </div> <!-- End  bootstrap-touch-slider Slider -->
+
+
           </div>
         </div>
       </div>
@@ -314,8 +329,7 @@
   <!--Start: 2nd Section  
             - About Us PAGE 
         ====================================-->
-  <div class="section section-item combine-section about-section hide-overlay overflow semi-dark-background"
-    id="about-section">
+  <div class="section section-item combine-section about-section hide-overlay overflow semi-dark-background" id="about-section">
     <div class="inner-container about-section">
       <div class="container">
         <div class="section-header">
@@ -333,8 +347,7 @@
                     <div class="col-md-6 col-sm-12 col-xs-12 about-page-image">
                       <div class="overflow">
                         <div class="wow">
-                          <img src="./images/pith.jpeg"
-                            class="m-t-15 m-r-50 why-choose-us-image" />
+                          <img src="./images/pith.jpeg" class="m-t-15 m-r-50 why-choose-us-image" />
                         </div>
                         <!-- <div class="middle">
                           <a href="#" class="btn right-icon btn-services btn-mask text-read-more" data-toggle="modal"
@@ -347,7 +360,7 @@
                       <div class="overflow">
                         <div class="pera-outer m-t-15 m-b-15 wow">
                           <p>
-                            JN is a export company, specialises in manufacturing and exporting coir fibre, coir pith blocks, 
+                            JN is a export company, specialises in manufacturing and exporting coir fibre, coir pith blocks,
                             which are manufacturing from our own unit Sri Palaniandavar Fibres. We hold valid trading
                             license for coir exports in India and Overseas.
                           </p>
@@ -357,9 +370,9 @@
                       <div class="overflow">
                         <div class="pera-outer m-t-15 wow">
                           <p>
-                            Our services include manufacturing and exporting Coir fibers and 
-                            Coco peats to China and European Countries from India. 
-                            We focus on continuing to offer dedicated services to our customers 
+                            Our services include manufacturing and exporting Coir fibers and
+                            Coco peats to China and European Countries from India.
+                            We focus on continuing to offer dedicated services to our customers
                             with traditional integrity and trustworthiness.
                           </p>
                         </div>
@@ -367,8 +380,8 @@
                       <div class="overflow">
                         <div class="pera-outer m-t-15 wow">
                           <p>
-                            We are able to offer superior quality products to our clients within the stipulated time frame. 
-                            Our entire product range is strictly quality tested to ensure that it is in compliance with 
+                            We are able to offer superior quality products to our clients within the stipulated time frame.
+                            Our entire product range is strictly quality tested to ensure that it is in compliance with
                             the international quality standards.
                           </p>
                         </div>
@@ -395,8 +408,7 @@
   <!--Start: 4th Section  
             - OUR PRODUCT PAGE
         ====================================-->
-  <div class="section section-item products-section combine-section hide-overlay overflow white-background"
-    id="products-section">
+  <div class="section section-item products-section combine-section hide-overlay overflow white-background" id="products-section">
     <div class="inner-container team-member white-background">
       <div class="container">
         <div class="row section-separator sp-bottom">
@@ -415,36 +427,44 @@
           <div class="clearfix"></div>
           <div class="overflow">
             <div class="row">
-              <div class="col-md-6 col-sm-6 col-xs-12">
-            
-                  <h5 class="wow">Coir Fibre</h5>
-                
+              <div class="col-md-6 col-sm-6 col-xs-12 p-l-50 p-r-50">
+                <h3 class="wow text-center">Coir Fibre</h3>
                 <div class="overflow">
-                  <div class="pera-outer m-t-15 wow">
+                  <div class="wow text-center">
+                    <img src="./images/coc-brown-fibre.jpg" class="m-t-15 coir-product-img" />
+                  </div>
+                </div>
+                <div class="overflow">
+                  <div class="pera-outer m-t-15 p-l-50 p-r-50 wow">
                     <p class="product-desc">
-                      JN Exports supplies 120Kg Coir Brown Fibre Bale from our own production unit. 
-                      Coir Fibre is a natural fibre extracted from the outer husk of coconut and 
+                      JN Exports supplies 120Kg Coir Brown Fibre Bale from our own production unit.
+                      Coir Fibre is a natural fibre extracted from the outer husk of coconut and
                       used in products such as floor mats, doormats, brushes and mattresses.
-                      The coir fiber is the thickest and most resistant of all commercial natural fibers. 
+                      The coir fiber is the thickest and most resistant of all commercial natural fibers.
                     </p>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 col-sm-6 col-xs-12 p-l-50 p-r-50">
-                  <h5 class="wow">Coir Pith</h5>
+                <h3 class="wow text-center">Coir Pith</h3>
                 <div class="overflow">
-                  <div class="pera-outer m-t-15 wow">
+                  <div class="wow text-center">
+                    <img src="./images/pith-blocks-storage.jpg" class="m-t-15 coir-product-img" />
+                  </div>
+                </div>
+                <div class="overflow">
+                  <div class="pera-outer m-t-15  p-l-50 p-r-50 wow">
                     <p class="product-desc">
-                      JN Exports supplies 5Kg Coir Pith blocks with Low EC from our own production unit. Coir Pith products are used in Agriculture, Horiculture, Floriculture nurseries, 
-                      Landscaping as a soil conditioner, 
-                      Potting mix, Germination of seeds and widely used 
-                      in Green Houses and for raising vegetables and flowers in terrace Gardens. 
+                      JN Exports supplies 5Kg Coir Pith blocks with Low EC from our own production unit. Coir Pith products are used in Agriculture, Horiculture, Floriculture nurseries,
+                      Landscaping as a soil conditioner,
+                      Potting mix, Germination of seeds and widely used
+                      in Green Houses and for raising vegetables and flowers in terrace Gardens.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -457,8 +477,7 @@
   <!--Start: 5th Section  
             - CONTACT US PAGE
         ====================================-->
-  <div class="section section-item combine-section semi-dark-background contact-us-section hide-overlay overflow wow"
-    id="contact-us-section">
+  <div class="section section-item combine-section semi-dark-background contact-us-section hide-overlay overflow wow" id="contact-us-section">
     <div class="relative bg-image-2">
       <div class="inner-container contact-us" id="contact">
         <div class="container">
@@ -479,7 +498,7 @@
 
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 overflow">
               <div class="row single-form-outer wow">
-                <form id="contact-form" method="post" class="dark-background single-form" action="php/sendmail.php">
+                <form id="contact-form" method="post" class="dark-background single-form" action="sendmail.php">
                   <div class="message col-xs-12">
                     <p class="email-loading">
                       <img src="images/loading.gif" alt="" />&nbsp;&nbsp;&nbsp;Sending...
@@ -497,8 +516,7 @@
                   <div class="col-sm-6 col-xs-12">
                     <div class="input-outer">
                       <div class="group relative">
-                        <input name="name" class="contact-name form-control" id="contact-name" type="text" required=""
-                          autocomplete="off" />
+                        <input name="name" class="contact-name form-control" id="contact-name" type="text" required="" autocomplete="off" />
                         <label class="input-label" for="contact-name">
                           <span class="label-text">your name</span>
                         </label>
@@ -509,8 +527,7 @@
                   <div class="col-sm-6 col-xs-12">
                     <div class="input-outer">
                       <div class="group relative">
-                        <input name="email" class="contact-email form-control" id="contact-email" type="email"
-                          required="" autocomplete="off" />
+                        <input name="email" class="contact-email form-control" id="contact-email" type="email" required="" autocomplete="off" />
                         <label class="input-label" for="contact-email">
                           <span class="label-text">your email</span>
                         </label>
@@ -521,8 +538,7 @@
                   <div class="col-sm-6 col-xs-12">
                     <div class="input-outer">
                       <div class="group relative">
-                        <input name="mobile" class="contact-phone form-control" id="contact-phone" type="mobile"
-                          required="" autocomplete="off" />
+                        <input name="mobile" class="contact-phone form-control" id="contact-phone" type="mobile" required="" autocomplete="off" />
                         <label class="input-label" for="contact-phone">
                           <span class="label-text">your mobile</span>
                         </label>
@@ -533,8 +549,7 @@
                   <div class="col-sm-6 col-xs-12">
                     <div class="input-outer">
                       <div class="group relative">
-                        <input name="subject" class="contact-subject form-control" id="contact-subject" type="text"
-                          required="" autocomplete="off" />
+                        <input name="subject" class="contact-subject form-control" id="contact-subject" type="text" required="" autocomplete="off" />
                         <label class="input-label" for="contact-subject">
                           <span class="label-text">subject</span>
                         </label>
@@ -545,8 +560,7 @@
                   <div class="col-xs-12">
                     <div class="input-outer">
                       <div class="group relative">
-                        <textarea class="contact-message form-control" id="contact-message" rows="3"
-                          required=""></textarea>
+                        <textarea class="contact-message form-control" id="contact-message" rows="3" required=""></textarea>
                         <label class="input-label" for="contact-message">
                           <span class="label-text">your message</span>
                         </label>
@@ -606,7 +620,7 @@
                     </li>
                     <li class="overflow wow">
                       <div class="li-inner wow">
-                        <a href="callto:+917708051526" class="btn-mask">+91 77080 51526</a>
+                        <a href="callto:+917708051526" class="btn-mask">+91 95788 18671</a>
                       </div>
                     </li>
                   </ul>
@@ -626,6 +640,11 @@
                     <li class="overflow">
                       <div class="li-inner wow">
                         <a href="contact@vbracegreen.com" class="btn-mask">contact@jncoirexports.com</a>
+                      </div>
+                    </li>
+                    <li class="overflow wow">
+                      <div class="li-inner wow">
+                        <a href="callto:+917708051526" class="btn-mask">+91 77080 51526</a>
                       </div>
                     </li>
                     <li class="overflow">
@@ -682,9 +701,7 @@
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
   <script src="js/bsTouchSlider.js"></script>
 
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4T3fWzw4YvOSr9AeXy5hxEOge19RG2u8&callback=myMap&libraries=&v=weekly"
-    defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4T3fWzw4YvOSr9AeXy5hxEOge19RG2u8&callback=myMap&libraries=&v=weekly" defer></script>
   <script>
     function myMap() {
       var mapProp = {

@@ -321,6 +321,6 @@
     padding: 10px 15px;
   }
   .indicators-line > .carousel-indicators {
-    display: none;
+    display: none !important;
   }
 }
