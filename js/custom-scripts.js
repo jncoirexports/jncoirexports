@@ -365,7 +365,7 @@
       var data = {
         name: $(this).find(".contact-name").val(),
         email: $(this).find(".contact-email").val(),
-        company: $(this).find(".contact-company").val(),
+        mobile: $(this).find(".contact-phone").val(),
         subject: $(this).find(".contact-subject").val(),
         message: $(this).find(".contact-message").val(),
       };
@@ -383,7 +383,6 @@
             loader.fadeIn(1000);
           },
           success: function (data) {
-            console.log(data);
             loader.fadeOut(1000);
             success.delay(500).fadeIn(1000);
             failed.fadeOut(500);

@@ -6,11 +6,11 @@
 
 <head>
   <!-- TITLE OF SITE -->
-  <title>JN Coir Exports</title>
+  <title>JN Coir Exports | Coir Fibre | Pith Block</title>
 
   <!-- Meta -->
   <meta charset="utf-8" />
-  <meta name="description" content="Coir exports of Pith block and Coir Fibre" />
+  <meta name="description" content="Coir exporter of Pith block and Coir Fibre" />
   <meta name="keywords" content="COIR, COIREXPORTS, COIR EXPORTS, ECO-FRIENDLY, JN COIR EXPORTS" />
   <meta name="developer" content="alpha-version" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -167,44 +167,7 @@
       <div class="row">
         <div class="col-md-12 landing-card">
           <div class="landing-card-container">
-
-            <!-- <div class="category-slider">
-              <div class="category-slider-container">
-                <div class="category-slider-wrapper pagination-style-1 owl-carousel">
-                  <div class="item category-slider-item category-slider-item-1">
-                    <img src="./images/pith-drying-2.jpeg" />
-                    <div class="bs-slider-overlay"></div>
-
-                    <div class="container">
-                        <div class="row">
-                           
-                            <div class="slide-text slide_style_left">
-                                <h1 data-animation="animated zoomInRight">Bootstrap Carousel</h1>
-                                <p data-animation="animated fadeInLeft">Bootstrap carousel now touch enable slide.</p>
-                                <a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
-                                <a href="http://bootstrapthemes.co/" target="_blank"  class="btn btn-primary" data-animation="animated fadeInRight">select two</a>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-
-                  <div class="item category-slider-item category-slider-item-2">
-                    <img src="./images/pith-drying-3.jpeg" />
-                  </div>
-
-                  <div class="item category-slider-item category-slider-item-3">
-                    <img src="./images/pith-drying.jpeg" />
-                  </div>
-
-                  <div class="item category-slider-item category-slider-item-4">
-                    <img src="./images/pith.jpeg" />
-                  </div>
-                </div>
-              </div>
-            </div> -->
-
             <div id="bootstrap-touch-slider" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
-
               <!-- Indicators -->
               <ol class="carousel-indicators">
                 <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
@@ -571,9 +534,9 @@
                   <!-- Subject Button -->
                   <div class="btn-form text-center col-xs-12">
                     <div class="button-outer relative">
-                      <button class="btn btn-fill right-icon">
-                        GET IN TOUCH <i class="icon icon-arrow-right"></i>
-                      </button>
+                      <input type="submit" class="btn btn-fill right-icon" id="btn-send" name="btn_send" value="GET IN TOUCH">
+                      <i class="icon icon-arrow-right"></i>
+                      </input>
                     </div>
                   </div>
                 </form>

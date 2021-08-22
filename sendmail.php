@@ -3,9 +3,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/PHPMailer/PHPMailer/src/Exception.php';
-require 'vendor/PHPMailer/PHPMailer/src/PHPMailer.php';
-require 'vendor/PHPMailer/PHPMailer/src/SMTP.php';
+require 'vendor/phpmailer/phpmailer/src/Exception.php';
+require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
+require 'vendor/phpmailer/phpmailer/src/SMTP.php';
 
 if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['mobile']) && isset($_POST['subject']) && isset($_POST['message'])) {
 
@@ -19,16 +19,16 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['mobile']) &
 		$phpEmail = new PHPMailer();
 		$phpEmail->IsSMTP();
 		$phpEmail->CharSet = "UTF-8";
-		$phpEmail->Host = "relay-hosting.secureserver.net";
+		$phpEmail->Host = "localhost"; //""smtpout.secureserver.net";//relay-hosting.secureserver.net";
 		$phpEmail->SMTPAuth = false;
 		//$phpEmail->SMTPAutoTLS = false; 
-		// $phpEmail->Port = 25;
+		$phpEmail->Port = 465;
 		$phpEmail->SMTPDebug = 1;
 		//$phpEmail->SMTPSecure = 'none';
 		//$phpEmail->Host= "sg2nwvpweb069.shr.prod.sin2.secureserver.net";//smtpout.secureserver.net";// (or alternatively relay-hosting.secureserver.net)
-		$phpEmail->Port = 587; //3535;//or 465 or 80 or 25
+		//$phpEmail->Port= 587;//3535;//or 465 or 80 or 25
 		//$phpEmail->SMTPAuth= true; //always
-		$phpEmail->SMTPSecure = "tsl"; //only if using port 465
+		$phpEmail->SMTPSecure = "ssl"; //only if using port 465
 		$phpEmail->SMTPOptions = array(
 			'ssl' => array(
 				'verify_peer' => false,
@@ -50,12 +50,14 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['mobile']) &
 		if (!$phpEmail->Send()) {
 			echo "<pre>";
 			print_r($phpEmail);
-			// exit;
-			return $phpEmail->ErrorInfo;
+			//exit;
+			return $phpEmail;
+			//return $phpEmail->ErrorInfo;
 		} else {
 			return "Message Sent!";
 		}
 	} catch (phpmailerException $ex) {
+		echo $ex->errorMessage();
 		return $ex->errorMessage();
 	}
 }
