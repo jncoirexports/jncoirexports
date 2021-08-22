@@ -383,6 +383,7 @@
             loader.fadeIn(1000);
           },
           success: function (data) {
+            console.log(data);
             loader.fadeOut(1000);
             success.delay(500).fadeIn(1000);
             failed.fadeOut(500);
